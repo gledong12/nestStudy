@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, HttpCode, HttpStatus, Param, Post, Put, Query, Req, Res } from '@nestjs/common';
+import { Body, Controller, Delete, Get, HttpCode, HttpStatus, Param, Post, Put, Query, Req, Res, ValidationPipe } from '@nestjs/common';
 import { Request, Response } from 'express';
 import { CreateUserDTO, UserInfo } from './dto/create-user.dto';
 import { VerifyEmailDTO } from './dto/verify-email.dto';
